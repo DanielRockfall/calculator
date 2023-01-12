@@ -37,3 +37,51 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+
+body {
+	background: url('../img/background.jpg');
+	background-size: cover;
+}
+ button {
+	background: none;
+ }
+
+
+.calc {
+	width: 260px;
+	height: 260px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #ECE9D8;
+	box-shadow: inset 2px 2px 2px #0732D9, inset -2px -2px 2px #00138C;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.calc__title {
+	padding: 7px 7px 7px 7px;
+	top: calc(50% - 29px/2);
+	background: #0055E5;
+	box-shadow: inset -2px 0px 3px #001590, inset 1px 0px 2px #0028C4, inset 0px -2px 3px #013EBF, inset 0px -12px 6px #026AFE, inset 0px 4px 3px #3897FF;
+	border-radius: 8px 8px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.calc-bar__btn {
+	border-radius: 3px
+}
+
+.calc-bar__grow {
+	cursor: default;
+}
+
+.calc-menu {
+	display: flex;
+	margin: 7px 0px 0px 15px;
+}
+
+.calc-menu__btn {
+	padding-right: 14px;
+}
